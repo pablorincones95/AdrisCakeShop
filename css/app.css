@@ -1,0 +1,442 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/*---------------- fuentes ----------------
+
+font-family: 'Berkshire Swash', cursive;
+font-family: 'Bad Script', cursive;
+font-family: 'Roboto Slab', serif;
+
+*/
+
+/*--------- background settings ---------*/
+
+.min-height-nosotros{
+  min-height: 105vh;
+}
+
+.min-height-galerias{
+  min-height: 105vh;
+}
+
+.min-height-recetas{
+  min-height: 100vh;
+}
+
+.min-height-pedidos{
+  min-height: 100vh;
+}
+
+.bg-cover{
+  background-image: url();
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg-home{
+  background-image: url("../assets/img/bg-home.png");
+}
+
+.bg-blue{
+  background-image: url("../assets/img/bg-blue.png");
+}
+
+.bg-brown{
+  background-image: url("../assets/img/bg-brown.png");
+}
+
+.bg-beige{
+  background-image: url("../assets/img/bg-beige.png");
+}
+
+.bg-magenta{
+  background-image: url("../assets/img/bg-magenta.png");
+}
+
+/*------------ principal-seccition ------------*/
+
+.menu-container{  
+  margin: auto;
+}
+
+.logo-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Berkshire Swash', cursive;
+}
+
+.logo{
+  max-width: 350px;
+  margin: auto;
+}
+
+.menu>a{
+  color: white;
+  font-size: 2em;
+}
+
+
+/*-------------- General Settings --------------*/
+
+#nosotros{
+  overflow-x: hidden;
+}
+
+#recetas{
+  overflow-x: hidden;
+}
+
+.container {
+ /* max-width: 1200px;*/
+  margin: auto;
+}
+
+.relative-container{
+  position: relative;
+}
+
+.container-blur{
+  min-height: 400px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+  padding: 40px 30px 40px 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.img-responsive{
+  width: 100;
+  height: auto;
+}
+
+body{
+  font-family: 'Roboto Slab', serif;
+  color: white;
+}
+
+
+.title {
+  font-family: 'Berkshire Swash', cursive;
+  color: white;
+  font-size: 5em;
+  margin-top: 5%;
+  margin-bottom: -8px;
+  margin-top: 5%;
+}
+.title.right{
+  text-align: right;
+}
+
+.sub-title{
+  font-family: 'Bad Script', cursive;
+  color: white;
+  font-size: 1.8em;
+}
+
+.sub-title.left-p{
+  margin-left: 8%;
+}
+
+.sub-title.left-p.top-p{
+  margin-top: 10%;
+}
+
+.sub-title.right-p{
+  margin-right: 8%;
+  text-align: right;
+}
+
+.txt{
+  line-height: 24px;
+  padding-bottom: 5%;
+}
+
+.txt.left-p{
+  font-size: 1.2em;
+  margin-left: 8%;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+}
+
+.list > li {
+  margin-bottom: 10px;
+}
+
+.btn-form {
+  margin-top: 10px;
+  background-color: #8bbb74;
+  float: right;
+  width: 50%;
+  font-size: 20px;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.btn-form:hover {
+  background-color: #8bbb74;
+}
+
+.btn-form:focus {
+  background-color: #8bbb74;
+}
+
+.btn-form:active {
+  background-color: #8bbb74;
+}
+
+.form {
+  padding-left: 80px;
+  color: #ffffff;
+}
+
+.label-form {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.input-form {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  border-color: #711772;
+  color: #ffffff;
+}
+
+.input-form:focus {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+  border-color: #68166a;
+}
+
+.slider-gallery {
+  margin-top: 125px;
+}
+
+.img-galery {
+  padding-right: 30px;
+}
+
+footer {
+  bottom: 0 !important;
+  margin-top: 270px;
+  text-align: center;
+}
+
+footer > p > a {
+  color: #8bbb74;
+}
+
+.padding-left {
+  padding-left: 50px !important; 
+}
+
+.padding-right {
+  padding-right:50px !important;
+}
+
+.margen-galeria {
+  height: 300px;
+}
+
+/*------------ Menu ------------*/
+
+
+
+/*---------Nosotros---------*/
+
+.p-absolute{
+  position: absolute;
+}
+
+#nosotros-img-ac{
+  top: 0;
+  right: -20px;
+}
+
+#nosotros-img{
+  top: 90px;
+  left: -75px;
+  max-width: 80%;
+}
+
+#torta-1-ac{
+  top: 30px;
+  left: -100px;
+}
+
+#torta-rosa{
+  top: -178px;
+  left: -100px;
+  max-width: 70%;
+}
+
+#torta-azul{
+  max-width: 50%;
+  top: 300px;
+  left: 56%;
+}
+
+#torta-roja-ac{
+  top: 0;
+  right: -120px;
+  max-width: 85%;
+}
+
+#torta-roja{
+  left: -5%;
+  top: 140px;
+  max-width: 70%;
+}
+
+#torta-marron-ac{
+  top: 0;
+  left: -15%;
+  max-width: 80%;
+}
+
+#torta-marron{
+  top: 100px;
+  left: 10%;
+  max-width: 100%;
+}
+
+/*@media screen and (min-width: 100em) {
+  #nosotros-img-ac{
+    top: 0;
+    right: -150px;
+  }
+
+  #torta-1-ac{
+    top: -3px;
+    left: -190px;
+  }
+
+  #torta-rosa{
+    top: -178px;
+    left: -190px;
+    max-width: 70%;
+  }
+
+  #torta-azul{
+    max-width: 50%;
+    top: 200px;
+    left: 56%;
+  }
+
+  #torta-roja-ac{
+    top: -1;
+    right: -40%;
+    max-width: 85%;
+  }
+
+  #torta-roja{
+    left: -1%;
+    top: 140px;
+    max-width: 70%;
+  }
+
+  #torta-marron-ac{
+    top: 0;
+    left: -45%;
+    max-width: 80%;
+  }
+
+  #torta-marron{
+    top: 100px;
+    left: 5%;
+    max-width: 100%;
+  }
+
+}*/
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+  .title {
+    font-size: 40px;
+    text-align: center !important;
+  }
+  .sub-title {
+    font-size: 30px;
+    text-align: center !important;
+  }
+  .padding-left {
+    padding: 10px !important; 
+  }
+
+  .padding-right {
+    padding: 10px !important;
+  }
+
+  .sub-title.left-p{
+    margin-left: 0;
+  }
+  
+  .sub-title.left-p.top-p{
+    margin-top: 0;
+  }
+  
+  .sub-title.right-p{
+    margin-right: 0;
+    text-align: center;
+  }
+  
+  .txt{
+    line-height: 24px;
+    padding-bottom: 0;
+  }
+  
+  .txt.left-p{
+    font-size: 1.2em;
+    margin-left: 0;
+  }
+
+  .form {
+    padding-left: 0;
+    color: #ffffff;
+  }
+  
+  .margen-galeria {
+    height: 10px;
+  }
+
+}
+
+/* Medium and up */
+@media screen and (min-width: 40em) {
+  #torta-azul{
+    max-width: 50%;
+    top: 200px;
+    left: 56%;
+  }
+}
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {}
+
+/* Large and up */
+@media screen and (min-width: 64em) {}
+
+/* Large only */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {}
+@media (max-width: 768px) {
+ 
+}
+
+/*Tablets en horizonal y escritorios normales
+  ------------------------------------------------------------------------- */
+@media (min-width: 1024px) {
+
+ }
+
+/* Escritorios muy anchos
+  ------------------------------------------------------------------------- */
+@media (min-width: 1200px) { 
+
+}
